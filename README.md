@@ -34,7 +34,7 @@ Here we use elasticsearch as an example.
 <pre><code>kubectl apply -f elasticsearch.yaml 
 </code></pre>
 Meanwhile, you should modify zipkin.yaml like zipkin-es.yaml and deploy it.   
-###all-in-one  
+### all-in-one  
 all-in-one.yaml contains all files above. If you want to deploy them simultaneously, use it.   
 <pre><code>kubectl apply -f all-in-one.yaml     
 </code></pre>
